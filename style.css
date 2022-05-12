@@ -1,53 +1,93 @@
+
 #first{
-    background-color: blue;
-    margin-top: -10px;
+    background-color: #1F2937
 }
 .top{
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    padding-top: 10px;
 }
-.top div {
-background: peachpuff;
-border: 4px solid brown;
+.header-logo{
+    margin-left: 10%;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
 }
 .top .options{
-    background-color: red;
-    margin-right: 200px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
 }
-
+.top .options div{
+    margin: 0px 10px 0px 10px;
+    color:white;
+}
 .logo{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    padding: 150px 0px 150px 0px;
 }
 .logo .title{
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
     justify-content: space-evenly;
+    color: white;
+    width: 300px;
+
+}
+.title-title{
+    
+    font-size:xx-large;
+    font-weight: bold;  
+}
+.title-info{
+    padding: 10px 0px;
 }
 .logo .title button{
     align-self: start;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.place-holder{
+    color:white;
+    height:100px;
+    width:600px;
+    background-color: grey;
+    text-align: center;
+    padding-top: 100px;
 }
 #second{
-    background-color: red;
+    padding-top: 50px;
+    background-color: white;
 }
 .second-title{
     text-align: center;
+    font-size:36px;
+    font-weight:bolder;
+    color: #1F2937;
 }
 .infos{
     display: flex;
     justify-content: space-evenly;
+    margin: 0 20% 0 20%;
+    padding: 50px 0;
 }
 
 .infos div{
  
-    width: 100px;
+    width: 200px;
 
 }
 .border{
-    width: 100px;
-    height: 100px;
-    border: 2px;
-    background-color: pink;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+.info .text{
+    text-align: center;
 }
