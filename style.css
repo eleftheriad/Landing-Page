@@ -1,4 +1,8 @@
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
 #first{
     background-color: #1F2937
 }
@@ -81,8 +85,11 @@
 .infos div{
  
     width: 200px;
-
 }
+.info .text{
+    color: #1F2937;
+}
+
 .border{
     height: 200px;
     border: 3px solid #3882F6;
@@ -90,4 +97,67 @@
 }
 .info .text{
     text-align: center;
+}
+#third{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 0;
+    
+}
+.quote{
+    font-size: 36px ;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    width:1000px;
+}
+.by{
+    padding-top:10px;
+    text-align: end;
+    Color: #1F2937;
+    font-weight: bold;
+    font-size: 25px ;
+}
+#fourth{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#fourth .container{
+    padding: 50px 0;
+    background-color: #3882F6;
+    display: flex;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 1000px;
+}
+.motive{
+    margin-left: 10%;
+    color: white;
+}
+.motive-1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.motive-2{
+    font-size: 20px;
+}
+
+.sign-up{
+    margin-right:10%;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-weight: bold;   
+    color: white;
+    background-color: #3882F6;
+}
+#footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding:50px 0;
 }
